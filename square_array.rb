@@ -5,5 +5,5 @@ def square_array(array)
     item ** 2
   end
 
-  array
+
 end
