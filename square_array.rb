@@ -8,6 +8,6 @@ def square_array(array)
 
   end
 
-  puts(array)
+  puts("ARRAY: #{array}"array")
 
 end
