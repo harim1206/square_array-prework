@@ -1,13 +1,11 @@
 def square_array(array)
   # your code here
 
-  array.each do|item|
+  i = 0
 
-    item = item ** 2
-    puts("ITEM: #{item}")
-
+  while i < array.size
+    array[i] = array[i]**2
+    i += 1
   end
-
-  puts("ARRAY: #{array}")
 
 end
